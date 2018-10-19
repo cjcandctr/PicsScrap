@@ -20,7 +20,7 @@ NEWSPIDER_MODULE = 'nvshensPic.spiders'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
-
+DOWNLOAD_DELAY = 15
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
